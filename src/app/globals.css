@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  /* Pastel orange palette */
+  --peach-50:  #fff8f2;
+  --peach-100: #fdeee0;
+  --peach-200: #fad8b8;
+  --peach-300: #f7bf8e;
+  --peach-400: #f4a264;
+  --peach-500: #f08340;
+  --peach-600: #d96b28;
+  --peach-700: #b5521c;
+
+  --cream:     #fffbf7;
+  --sand:      #f5ede3;
+  --warm-gray: #7c6e62;
+  --dark:      #2d1f14;
+  --white:     #ffffff;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 40px;
+
+  --shadow-soft: 0 2px 16px rgba(240, 131, 64, 0.10);
+  --shadow-card: 0 4px 28px rgba(45, 31, 20, 0.08);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--cream);
+  color: var(--dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
